@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0a0f1a;
+  color: #e6e9f0;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.button-primary {
+  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 14px;
+  border: none;
+}
